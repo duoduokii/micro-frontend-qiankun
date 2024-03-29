@@ -1,0 +1,19 @@
+{
+	"name": "micro-frontend-qiankun",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "pnpm -r run dev",
+		"dev:main": "cd packages/main && pnpm run dev",
+		"dev:micro-vue3": "cd packages/micro-vue3 && pnpm run dev",
+		"dev:micro-react": "cd packages/micro-react && pnpm run dev",
+		"build": "pnpm -r run build",
+		"build:main": "cd packages/main && pnpm run build",
+		"build:micro-vue3": "cd packages/micro-vue3 && pnpm run build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
