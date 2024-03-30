@@ -1,15 +1,15 @@
 // Micro Apps Config
 export const microApps = [
 	{
-		name: "app-vue",
-		entry: "//localhost:5175",
+		name: "micro-vue3",
+		entry: "//localhost:3001",
 		container: "#container",
-		activeRule: "/app-vue",
+		activeRule: "/micro-vue3",
 	},
 	{
-		name: "app-react",
-		entry: "//localhost:5173",
+		name: "micro-react",
+		entry: "//localhost:3002",
 		container: "#container",
-		activeRule: "/app-react",
+		activeRule: "/micro-react",
 	},
 ];
